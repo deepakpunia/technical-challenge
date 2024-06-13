@@ -52,6 +52,7 @@ Attach screenshot: 'Cypress run.png'
 #### Test to cover.
 ##### - Login into Rancher
 
+###### Note: Level 2 only run after Level 1 test execution finish successfully. In Level 1 we are setting password manually which we are using in Level 2. 
 ```bash
 $ cd Level-2/
 $ ginkgo bootstrap
