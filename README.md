@@ -46,6 +46,7 @@ $ npx cypress run
 ```
 
 Attach screenshot: 'Cypress run.png'
+![alt text](https://github.com/deepakpunia/technical-challenge/blob/main/Cypress_run.png?raw=true)
 
 ### Level 2 : API Automation using Go lang using Ginkgo & Gomega framework
 #### Test to cover.
