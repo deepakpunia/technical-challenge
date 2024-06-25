@@ -15,7 +15,7 @@ resource "google_compute_instance" "vm_instance" {
   }
 
   metadata = {
-    ssh-keys = "ubuntu:`cat ~/.ssh/id_rsa.pub`"
+    ssh-keys = "ubuntu:${file("~/.ssh/id_rsa.pub")}"
   }  
 
   network_interface {
